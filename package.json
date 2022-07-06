@@ -1,7 +1,11 @@
 {
   "name": "jest-another-rpg",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
     "test": "jest"
   },
@@ -15,8 +19,7 @@
     "url": "https://github.com/CaitlinParsons25/jest-another-RPG/issues"
   },
   "homepage": "https://github.com/CaitlinParsons25/jest-another-RPG#readme",
-  "directories": {
-    "lib": "lib"
-  },
-  "description": ""
+  "dependencies": {
+    "jest": "^28.1.2"
+  }
 }
